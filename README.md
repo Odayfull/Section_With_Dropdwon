@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://odayfull.github.io/Section_With_Dropdwon/)](https://your-solution-url.com)
-- Live Site URL: [[Add live site URL here](https://github.com/Odayfull/Section_With_Dropdwon)](https://your-live-site-url.com)
+- Solution URL: (https://odayfull.github.io/Section_With_Dropdwon/)
+- Live Site URL: (https://github.com/Odayfull/Section_With_Dropdwon)
 
 ### Built with
 
@@ -43,6 +43,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
