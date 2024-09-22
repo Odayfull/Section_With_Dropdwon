@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Section With Dropdown</title>
+  </head>
+  <body>
+    <li class="logo-out"><a href="#"><img src="images/logo.svg" alt=""></a></li>
+      <div class="menu"><img src="images/icon-menu.svg" alt=""></div>
+    <header>
+      <div class="close"><img src="images/icon-close-menu.svg" alt=""></div>
+      <!-- <div class="menu"><img src="images/icon-menu.svg" alt=""></div> -->
+      <ul>
+        <li class="logo"><a href="#" ><img src="images/logo.svg" alt=""></a></li>
+        <li>
+          <a href="#">Feature <img class="down" src="images/icon-arrow-down.svg" alt=""></a>
+          <ul class="show">
+            <li><img src="images/icon-todo.svg" alt=""><a>Todo List</a></li>
+            <li><img src="images/icon-calendar.svg" alt=""> <a>Calendar</a></li>
+            <li><img src="images/icon-reminders.svg" alt=""><a>Reminders</a></li>
+            <li><img src="images/icon-planning.svg" alt=""><a>Planning</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Company <img class="down" src="images/icon-arrow-down.svg" alt=""></a>
+          <ul class="separate show" > 
+            <li><a href="#">History</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Careess</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <div class="login-register">
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+      </div>
+    </header>
+    <div class="content">
+      <div class="info">
+        <h1>Make <br> remote work</h1>
+        <p>
+          Get your teamin sync, no matter your location.
+          Streamline processes. create team riuals.and 
+          watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <div class="imges">
+          <img src="images/client-databiz.svg" alt="#">
+          <img src="images/client-audiophile.svg" alt="#">
+          <img src="images/client-meet.svg" alt="#">
+          <img src="images/client-maker.svg" alt="#">
+        </div>
+      </div>
+      <div class="img">
+        <img  src="images/image-hero-desktop.png" alt="">
+      </div>
+    </div>
+    <script>  
+    let menu = document.querySelector(" .menu");
+    let close = document.querySelector(".close")
+    let header = document.querySelector("header")
+    menu.onclick = ()=>{
+      header.style.right ="0";
+      menu.style.display ="none"
+      close.style.display ="block"
+      document.body.style.backgroundColor ="rgba(0, 0, 0, 0.466)";
+    }
+    close.onclick = ()=>{
+      header.style.right ="-1500px";
+      close.style.display ="none"
+      menu.style.display ="block"
+      document.body.style.backgroundColor ="white";
+    }
+    </script>
+  </body>
+</html>
